@@ -8,17 +8,19 @@ body {
 
 /* Menu */
 
-nav{
+nav {
     top: 0;
     position: sticky;
+    background-color: #333;  
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #333;  
+    margin-left: 93vh;
 }
 
 li {
@@ -92,7 +94,7 @@ section {
     background-color: #0e191af3;
     margin-left: auto;
     margin-right: auto;
-    height: 5000px;
+    height: 100%;
     width: 70%;
     border-radius: 5px;
     border-style: solid;
@@ -112,7 +114,7 @@ section {
 
 #nome {
     width: 100%;
-    height: 220px;
+    height: 50vh;
     margin: auto;
 }
 
@@ -235,11 +237,19 @@ table {
     text-align: center;
     width: 100%;
 }
-table, th, td{
+
+table,
+th,
+td {
     padding: 5px;
     border: 1px solid white;
     border-collapse: collapse;
 
+}
+
+.demonstration {
+    width: 75%;
+    height: 75%;
 }
 
 .coin {
