@@ -1,3 +1,8 @@
+@font-face {
+  font-family: FonteMenu;
+  src: url(cuphead_font_pack_by_platyfanatic1_dfa4zap/CupheadMemphis-Medium-merged.ttf);
+}
+
 body {
     background-repeat: no-repeat;
     background-image: cover;
@@ -9,9 +14,10 @@ body {
 /* Menu */
 
 nav {
+    font-family: FonteMenu;
     top: 0;
     position: sticky;
-    background-color: #333;  
+    background-color: transparent;  
 }
 
 ul {
@@ -19,25 +25,31 @@ ul {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background-color: #333;  
-    margin-left: 93vh;
+    background-color: transparent;  
+    margin-left: 68vh; 
 }
 
-li {
+li { 
     float: left;
+    margin-left: 1px;
+    margin-right: 1px;
+    border: solid 2px #5a6162;
 }
 
 li a {
     display: inline-block;
-    color: white;
+    background-color: #c8a991;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    min-width: 160px;
+    color: #303336;
+    height: 0.9vw;
 }
 
 li a:hover,
 .dropdown:hover {
-    background-color: red;
+    background-color: #c26547;
 }
 
 li.dropdown {
@@ -47,7 +59,7 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #c8a991;
     min-width: 160px;
     height: 0;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -55,16 +67,17 @@ li.dropdown {
 }
 
 .dropdown-content a {
-    color: black;
+    color: #303336;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-    background-color: white;
+    background-color: #c8a991;
+    border: solid 3px #5a6162;
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #c26547;
 }
 
 .dropdown:hover .dropdown-content {
