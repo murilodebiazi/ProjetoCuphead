@@ -134,43 +134,50 @@ section {
 /* World 1 Map */
 
 #mapa {
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    border-color: transparent;
+    display: fixed;
+    background-image: url(Imagens/Ilha1.png);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-size: 100% 100%;
+    width: 219vh;
+    height: 44vw;
+    padding: 0;
+    margin-left: 0;
+    border: none;
 }
 
 .icon {
-    height: 100px;
+    height: 7vw;
+    width: 16vh;
 }
 
 .card {
-    height: 100px;
+    height: 7vw;
     display: none;
 }
 
 #hildaberg {
     float: right;
     display: flex;
-    margin-right: 17.14%;
+    margin-right: 26.5vh;
+    margin-top: 1.5vw;
     height: 1px;
 }
 
 #hildaberg:hover .card {
-    display: block;
+    display: flex;
     margin-right: 4px;
 }
 
 #cagneycarnation {
     float: right;
     display: flex;
-    margin-right: 8.5%;
-    margin-top: 10%;
+    margin-right: 8vh;
+    margin-top: 10vw;
     height: 1px;
 }
 
 #cagneycarnation:hover .card {
-    display: block;
     display: flex;
     margin-right: 4px;
 }
@@ -178,68 +185,63 @@ section {
 #house {
     float: left;
     display: flex;
-    margin-left: 14%;
-    margin-top: 10.5%;
+    margin-left: 40vh;
+    margin-top: 10.5vw;
 }
 
 #house:hover .card {
-    display: block;
     display: flex;
     margin-left: 4px;
 }
 
 #goopylegrande {
-    position: fixed;
-    margin-left: 46.8%;
-    margin-top: 5.5%;
+    position: absolute;
+    margin-left: 115vh;
+    margin-top: 7.1vw;
     display: flex;
     height: 1px;
 }
 
 #goopylegrande:hover .card {
-    display: block;
     display: flex;
     margin-left: 4px;
 }
 
 #shop {
-    position: fixed;
-    margin-left: 48.4%;
-    margin-top: 13.5%;
+    position: absolute;
+    margin-left: 118.4vh;
+    margin-top: 15vw;
     display: flex;
     height: 1px;
 }
 
 #shop:hover .card {
-    display: block;
     display: flex;
     margin-left: 4px;
 }
 
 #therootpack {
-    position: fixed;
-    margin-left: 36.7%;
-    margin-top: 20.7%;
+    position: absolute;
+    margin-left: 91vh;
+    margin-top: 23vw;
     display: flex;
     height: 1px;
 }
 
 #therootpack:hover .card {
-    display: block;
     display: flex;
     margin-left: 4px;
 }
 
 #ribbycroaks {
-    position: fixed;
-    margin-left: 45.7%;
-    margin-top: 29.7%;
+    position: absolute;
+    margin-left: 111.8vh;
+    margin-top: 32vw;
     display: flex;
     height: 1px;
 }
 
 #ribbycroaks:hover .card {
-    display: block;
     display: flex;
     margin-left: 4px;
 }
