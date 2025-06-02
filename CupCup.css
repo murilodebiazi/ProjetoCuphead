@@ -99,10 +99,9 @@ div {
 }
 
 #imgp {
-    float: right;
+    float: left;
     height: 150px;
     width: 135px;
-    margin-bottom: 15px;
 }
 
 section {
@@ -123,9 +122,21 @@ section {
     margin-bottom: 6vw;
 }
 
-.description, #characters, #phase1, #phase2, #phase3{
+.description, #characters, #phase1, #phase2, #phase3, #secretphase{
     margin-bottom: 4vw;
 }
+
+.boss{
+    width: 85%;
+    height: 150px;
+    background-image: url(Imagens/FundoMenu.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color: black;
+}
+
 
 /* Introducao */
 
