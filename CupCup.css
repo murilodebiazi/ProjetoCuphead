@@ -38,12 +38,12 @@ li {
     float: left;
     margin-left: 1px;
     margin-right: 1px;
-    border: solid 2px #5a6162;
 }
 
 li a {
     display: inline-block;
-    background-color: #c8a991;
+    background-image: url(Imagens/FundoMenu.webp);
+    background-size: cover;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -54,7 +54,8 @@ li a {
 
 li a:hover,
 .dropdown:hover {
-    background-color: #c26547;
+    background-image: url(Imagens/FundoMenuAtivo.webp);
+    background-size: cover;
 }
 
 li.dropdown {
@@ -64,11 +65,9 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #c8a991;
     min-width: 160px;
     height: 0;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
 }
 
 .dropdown-content a {
@@ -77,12 +76,11 @@ li.dropdown {
     text-decoration: none;
     display: block;
     text-align: left;
-    background-color: #c8a991;
-    border: solid 3px #5a6162;
 }
 
 .dropdown-content a:hover {
-    background-color: #c26547;
+    background-image: url(Imagens/FundoMenuAtivo.webp);
+    background-size: cover;
 }
 
 .dropdown:hover .dropdown-content {
