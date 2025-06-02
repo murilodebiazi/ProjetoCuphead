@@ -87,13 +87,12 @@ li.dropdown {
 /* Pages Configurations */
 
 p {
-    width: 75%;
+    width: 85%;
 }
 
 div {
     border-width: 5px;
     display: block;
-    height: 150px;
 }
 
 #imgp {
@@ -115,6 +114,29 @@ section {
     color: white;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.description{
+    margin-bottom: 4vw;
+}
+
+#characters{
+    margin-bottom: 4vw;
+}
+
+#phase1{
+    display: block;
+    margin-bottom: 4vw;
+}
+
+#phase2{
+    display: block;
+    margin-bottom: 4vw;
+}
+
+#phase3{
+    display:block;
+    margin-bottom: 4vw;
 }
 
 /* Introducao */
