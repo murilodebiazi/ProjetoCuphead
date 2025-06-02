@@ -3,6 +3,11 @@
   src: url(cuphead_font_pack_by_platyfanatic1_dfa4zap/CupheadMemphis-Medium-merged.ttf);
 }
 
+@font-face {
+  font-family: FonteShop;
+  src: url(cuphead_font_pack_by_platyfanatic1_dfa4zap/CupheadMemphis-Medium-merged.ttf);
+}
+
 body {
     background-repeat: no-repeat;
     background-image: cover;
@@ -116,26 +121,11 @@ section {
     padding-right: 5%;
 }
 
-.description{
-    margin-bottom: 4vw;
+#cuphead , #mugman, #thedevil{
+    margin-bottom: 6vw;
 }
 
-#characters{
-    margin-bottom: 4vw;
-}
-
-#phase1{
-    display: block;
-    margin-bottom: 4vw;
-}
-
-#phase2{
-    display: block;
-    margin-bottom: 4vw;
-}
-
-#phase3{
-    display:block;
+.description, #characters, #phase1, #phase2, #phase3{
     margin-bottom: 4vw;
 }
 
@@ -281,7 +271,18 @@ td {
     padding: 5px;
     border: 1px solid white;
     border-collapse: collapse;
+    font-family: FonteShop;
+    font-size: 18px;
+    
+}
 
+table th{
+    background-image: url(Imagens/FundoTitle.webp);
+    font-size: 25px;
+}
+
+table td{
+    background-image: url(Imagens/FundoItens.webp);
 }
 
 .container{
@@ -311,5 +312,10 @@ td {
 }
 
 #charms {
-    margin-bottom: 500px;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+#weapons{
+    margin-bottom: 4vw;
 }
